@@ -80,138 +80,112 @@
         </li>
       </ul>
       <!-- Collapse -->
-      <div class="collapse navbar-collapse" id="sidenav-collapse-main">
-        <!-- Collapse header -->
-        <div class="navbar-collapse-header d-md-none">
-          <div class="row">
-            <div class="col-6 collapse-brand">
-              <a href="../index.html">
-                <img src="../assets/img/brand/school_icon.png">
-              </a>
-            </div>
-            <div class="col-6 collapse-close">
-              <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#sidenav-collapse-main" aria-controls="sidenav-main" aria-expanded="false" aria-label="Toggle sidenav">
-                <span></span>
-                <span></span>
-              </button>
-            </div>
-          </div>
+      <div class="navbar-default sidebar" role="navigation">
+        <div class="sidebar-nav navbar-collapse">
+            <ul class="nav" id="side-menu">
+                <li class="sidebar-search">
+                    <div class="input-group custom-search-form">
+                        <input type="text" class="form-control" placeholder="Search...">
+                        <span class="input-group-btn">
+                        <button class="btn btn-default" type="button">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </span>
+                    </div>
+                    <!-- /input-group -->
+                </li>
+                <li>
+                    <a href="index.html"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Charts<span class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level">
+                        <li>
+                            <a href="flot.html">Flot Charts</a>
+                        </li>
+                        <li>
+                            <a href="morris.html">Morris.js Charts</a>
+                        </li>
+                    </ul>
+                    <!-- /.nav-second-level -->
+                </li>
+                <li>
+                    <a href="tables.html"><i class="fa fa-table fa-fw"></i> Tables</a>
+                </li>
+                <li>
+                    <a href="forms.html"><i class="fa fa-edit fa-fw"></i> Forms</a>
+                </li>
+                <li>
+                    <a href="#"><i class=""></i> UI Elements<span class=""></span></a>
+                    <ul class="nav nav-second-level">
+                        <li>
+                            <a href="panels-wells.html">Panels and Wells</a>
+                        </li>
+                        <li>
+                            <a href="buttons.html">Buttons</a>
+                        </li>
+                        <li>
+                            <a href="notifications.html">Notifications</a>
+                        </li>
+                        <li>
+                            <a href="typography.html">Typography</a>
+                        </li>
+                        <li>
+                            <a href="icons.html"> Icons</a>
+                        </li>
+                        <li>
+                            <a href="grid.html">Grid</a>
+                        </li>
+                    </ul>
+                    <!-- /.nav-second-level -->
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-sitemap fa-fw"></i> Multi-Level Dropdown<span class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level">
+                        <li>
+                            <a href="#">Second Level Item</a>
+                        </li>
+                        <li>
+                            <a href="#">Second Level Item</a>
+                        </li>
+                        <li>
+                            <a href="#">Third Level <span class="fa arrow"></span></a>
+                            <ul class="nav nav-third-level">
+                                <li>
+                                    <a href="#">Third Level Item</a>
+                                </li>
+                                <li>
+                                    <a href="#">Third Level Item</a>
+                                </li>
+                                <li>
+                                    <a href="#">Third Level Item</a>
+                                </li>
+                                <li>
+                                    <a href="#">Third Level Item</a>
+                                </li>
+                            </ul>
+                            <!-- /.nav-third-level -->
+                        </li>
+                    </ul>
+                    <!-- /.nav-second-level -->
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-files-o fa-fw"></i> Sample Pages<span class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level">
+                        <li>
+                            <a href="blank.html">Blank Page</a>
+                        </li>
+                        <li>
+                            <a href="login.html">Login Page</a>
+                        </li>
+                    </ul>
+                    <!-- /.nav-second-level -->
+                </li>
+            </ul>
         </div>
-        <!-- Form -->
-        <form class="mt-4 mb-3 d-md-none">
-          <div class="input-group input-group-rounded input-group-merge">
-            <input type="search" class="form-control form-control-rounded form-control-prepended" placeholder="Search" aria-label="Search">
-            <div class="input-group-prepend">
-              <div class="input-group-text">
-                <span class="fa fa-search"></span>
-              </div>
-            </div>
-          </div>
-        </form>
-        <!-- Navigation -->
-        <ul class="navbar-nav">
-          <li class="dropdown">
-            <a class="nav-link" href="./index.html">
-              <i class="ni ni-tv-2 text-primary"></i> Dashboard
-            </a>
-          </li>
-          <li class="dropdown">
-            <a class="nav-link" href="./examples/result.html">
-              <i class="ni ni-single-copy-04"></i> Result
-            </a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown "href="./examples/staffs.html" id="navbarDropdown" data-toggle="dropdown">
-              <i class="ni ni-pin-3 text-orange"></i> Staff 
-              <div class="dropdown-menu">
-                <a class="dropdown-item ni ni-single-copy-04"href="./examples/profile.html">
-               Staff Profile
-             </a>
-             <a class="dropdown-item ni ni-single-copy-04" href="./examples/icons.html" >
-               Staff Classroom
-             </a>
-             <a class="dropdown-item ni ni-single-copy-04" href="./index.html">
-               Sub Item 
-             </a>
-             <a class="dropdown-item ni ni-single-copy-04" href="./index.html">
-              Sub Item 
-            </a>
-            <a class="dropdown-item ni ni-single-copy-04" href="./index.html">
-              Sub Item 
-            </a>
-            </div>
-            </a>
-
-          </li>
-
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown "href="./examples/staffs.html" id="navbarDropdown" data-toggle="dropdown">
-              <i class="ni ni-circle-08 text-yellow"></i> Student
-              <div class="dropdown-menu">
-                <a class="dropdown-item ni ni-single-copy-04"href="./examples/profile.html">
-               Student Profile
-             </a>
-             <a class="dropdown-item ni ni-single-copy-04" href="./examples/icons.html" >
-               Student Classroom
-             </a>
-             <a class="dropdown-item ni ni-single-copy-04" href="./index.html">
-               Student Item 
-             </a>
-             <a class="dropdown-item ni ni-single-copy-04" href="./index.html">
-              Student Item 
-            </a>
-            <a class="dropdown-item ni ni-single-copy-04" href="./index.html">
-              Student Item 
-            </a>
-            </div>
-            </a>
-
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown "href="./examples/staffs.html" id="navbarDropdown" data-toggle="dropdown">
-              <i class="ni ni-bullet-list-67 text-red"></i> Parent
-              <div class="dropdown-menu">
-                <a class="dropdown-item ni ni-single-copy-04"href="./examples/profile.html">
-               Parent Profile
-             </a>
-             <a class="dropdown-item ni ni-single-copy-04" href="./examples/icons.html" >
-               Staff Classroom
-             </a>
-             <a class="dropdown-item ni ni-single-copy-04" href="./index.html">
-               Sub Item 
-             </a>
-             <a class="dropdown-item ni ni-single-copy-04" href="./index.html">
-              Sub Item 
-            </a>
-            <a class="dropdown-item ni ni-single-copy-04" href="./index.html">
-              Sub Item 
-            </a>
-            </div>
-            </a>
-
-          </li>
-          <li class="dropdown">
-            <a class="nav-link" href="./examples/event_calender.html">
-              <i class="ni ni-calendar-grid-58 text-red"></i>Clubs & Events
-            </a>
-          </li>
-          <li class="dropdown">
-            <a class="nav-link" href="./examples/login.html">
-              <i class="ni ni-key-25 text-info"></i> Login
-            </a>
-          </li>
-          <li class="dropdown">
-            <a class="nav-link" href="./examples/register.html">
-              <i class="ni ni-circle-08 text-pink"></i> Register
-            </a>
-          </li>
-        </ul>
-        <!-- Divider -->
-        <hr class="my-3">
-        <!-- Heading -->
-      </div>
+        <!-- /.sidebar-collapse -->
     </div>
-  </nav>
+    </nav>
   <!-- Main content -->
   <div class="main-content">
     <!-- Top navbar -->
@@ -473,6 +447,13 @@
   <script src="../assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   <!-- Argon JS -->
   <script src="../assets/js/argon.js?v=1.0.0"></script>
+  <script src="../assets/js/sb-admin-2.js"></script>
+  
+
+    <!-- Morris Charts JavaScript -->
+    <script src="../assets/raphael.min.js"></script>
+    <script src="../assets/morris.min.js"></script>
+    <script src="../assets/morris-data.js"></script>
 </body>
 
 </html>
